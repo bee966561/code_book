@@ -1,3 +1,7 @@
+#This program encrypts text using swap_encryption algorithm
+
+#This algorithm can be used to decrypt swap_encryption too. Just pass the cipher text and Voila
+
 import generic as g
 
 aStore	=	[]

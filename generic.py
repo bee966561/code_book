@@ -11,8 +11,8 @@ def fill_list(array, character=1, length=10):
 
 def ascii_over_flow(theLetter, theShift):
 	theTotal	=	ord(theLetter)	+	theShift
-	if theTotal	<	65
-		return theTotal
+	if theTotal	<	65:
+		return ord(theLetter)
 	elif	theTotal	>	122:
 		return	96	+	theTotal	-	122
 	elif	theTotal	<	97:

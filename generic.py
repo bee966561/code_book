@@ -1,6 +1,6 @@
 #This module contains all your custom made generic_functions
 
-def fill_list(array, character=1, length=10):
+def fill_list(array, character, length=10):
 	"""Fills a list with a character or number to a specified length"""
 	array.append(character)
 	for i in array:
@@ -29,3 +29,17 @@ def enc(passedString, passedShift=10):
 		newString.append(chr(ascii_over_flow(passedString[i], passedShift)))
 		i	=	i	+	1
 	return newString
+
+def patternLength(size):
+	"""returns a pattern to match all the words of same size as the given word"""
+	pattern	=	''
+	
+
+
+
+def loadPossiblities(eList, allWordsList):
+	possibilities	=	[]
+	i	=	0
+	for word in eList:
+		possibilities.append(re.search(f"{len()}", allWordsList))
+		i	+=	1
